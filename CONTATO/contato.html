@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>JaguAir</title>
+  <link rel="stylesheet" href="/style.css">
+
+  <style>
+    @font-face {
+      font-family: Display;
+      src: url("/fonts/PlayfairDisplay-Bold.ttf");
+    }
+
+    @font-face {
+      font-family: Roboto;
+      src: url("/fonts/Roboto-Bold.ttf");
+    }
+
+    @font-face {
+      font-family: RobotoRegular;
+      src: url("/fonts/Roboto-Regular.ttf");
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <head>
+    <nav class="menu">
+
+      <img class="logo" src="/img/Menu/logo.png">
+
+      <ul class="menu">
+        <li><a href="/index.html">
+            <img class="menu_inicio" src="/img/Menu/Group 3.png">
+          </a></li>
+
+        <li><a href="/PASSAGENS/passagens.html">
+            <img class="menu_viagens" src="/img/Menu/Group 2.png">
+          </a></li>
+
+        <li><a href="/CONTATO/contato.html">
+            <img class="menu_contato" src="/img/Menu/Group 1.png">
+          </a></li>
+      </ul>
+
+    </nav>
+  </head>
+
+  <main>
+
+    <img class="call_center" src="/img/Menu/callcenter.jpg" alt="">
+
+
+    <div class="formulario">
+      <h1>ENTRE EM CONTATO</h1>
+      <form action="https://formsubmit.co/jheniferfranco2003@gmail.com" method="POST">
+        <label class="Nome" for="name">Nome</label>
+        <input class="text" type="text" name="name" required>
+        <label class="E-mail" for="email">E-mail</label>
+        <input class="email" type="email" name="email" required>
+        <input type="hidden" name="_captcha" value="false">
+        <label class="Mensagem" for="name">Mensagem</label>
+        <textarea class="message" name="message" id="" cols="30" rows="10" required></textarea>
+        <input type="hidden" name="_next" value="https://27.0.0.1:5500/CONTATO/finish.html">
+        <button class="Send" type="submit">Enviar</button>
+      </form>
+    </div>
+
+  </main>
+
+  <footer>
+
+    <div class="footer_menu1">
+      <div class="footer_logo1">
+        <h1>EMPRESA</h1>
+        <img class="logo_branca1" src="/img/Menu/logoBRANCA.png" alt="">
+      </div>
+
+      <div class="footer_contato1">
+        <h1>CONTATO</h1>
+        <p class="numero1">027 9999-999</p>
+        <p class="numero1">027 9999-999</p>
+        <p class="footer_gmail1">emaildecontato@generator.com</p>
+
+      </div>
+
+      <div class="footer_seguranca1">
+        <h1>SITE SEGURO</h1>
+        <img src="/img/Menu/SEGURO.png" alt="">
+      </div>
+
+
+  </footer>
+
+</body>
+
+</html>
